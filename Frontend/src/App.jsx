@@ -10,7 +10,7 @@ import Register from './pages/Register'
 import Profile from './pages/Profile'
 
 import Authslider from './pages/Authslider'
-import FindDonor from './pages/findDonor'
+import FindDonor from './pages/FindDonor'
 import Donatenow from './pages/Donatenow'
 
 const AppContent = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import {useNavigate} from 'react-router-dom'
-import FindDonor from "./findDonor";
+
 const Home = () => {
   const navigate=useNavigate()
   return (
