@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const DBCN=async()=>{
     try{
-        await mongoose.connect('mongodb://localhost:27017/Blood-Donation')
+        await mongoose.connect('mongodb+srv://kanhaiya:kanhaiya@cluster0.xyphol7.mongodb.net/')
             console.log("database connected")
         
     }catch(e){
