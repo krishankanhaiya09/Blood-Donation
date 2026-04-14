@@ -5,10 +5,7 @@ import Home from './pages/Home'
 import Navbar from './pages/Navbar'
 import Donate from './pages/Donate'
 import Feedback from './pages/Feedback'
-import Login from './pages/Login'
-import Register from './pages/Register'
 import Profile from './pages/Profile'
-
 import Authslider from './pages/Authslider'
 import FindDonor from './pages/FindDonor'
 import Donatenow from './pages/Donatenow'
@@ -28,8 +25,6 @@ const AppContent = () => {
         <Route path='/Home' element={<Home />} />
         <Route path='/Donate' element={<Donate />} />
         <Route path='/Feedback' element={<Feedback />} />
-        {/* <Route path='/Login' element={<Login />} />
-        <Route path='/Register' element={<Register />} /> */}
         <Route path='/Profile' element={<Profile />} />
         <Route path='/FindDonor' element={<FindDonor />} />
         <Route path='/Donatenow' element={<Donatenow />} />
